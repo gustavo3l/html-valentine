@@ -1,0 +1,59 @@
+
+h1 {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 6rem;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+    height: 400px;
+    
+}
+
+.but {
+    background-image: url("./love_sem_fundo.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:  200px;
+    height: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    float: left;
+  
+
+}
+
+.but:hover {
+    background-color: rgb(230, 110, 110);
+}
+
+p {
+    font-family: "Ballet", cursive;
+     font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.butlove {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
