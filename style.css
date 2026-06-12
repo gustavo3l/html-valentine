@@ -1,8 +1,8 @@
 
 h1 {
-  font-family: "Ballet", cursive;
-  font-optical-sizing: auto;
-  font-weight: 500;
+   font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
   font-style: normal;
   font-size: 6rem;
   text-align: center;
@@ -10,6 +10,7 @@ h1 {
 
 body {
   background-color: white;
+  position: relative;
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
 }
 
 .but {
-    background-image: url("./love_sem_fundo.gif");
+    background-image: url("./Imagens/love_sem_fundo.gif");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,19 +33,19 @@ body {
     background-color: white;
     border: none;
     border-radius: 50%;
-    float: left;
+    float: right;
   
 
 }
 
-.but:hover {
-    background-color: rgb(230, 110, 110);
+.but:active {
+  filter: brightness(2);
 }
 
 p {
-    font-family: "Ballet", cursive;
-     font-optical-sizing: auto;
-    font-weight: 500;
+     font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-style: normal;
     font-size: 3rem;
     text-align: center;
@@ -55,5 +56,59 @@ p {
     gap: 20px;
     align-items: center;
     justify-content: center;
+}
+
+.but_letter1 {
+    background-image: url("./Imagens/love_letter_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:  150px;
+    height: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    float: right;
+
+}
+
+.but_letter2 {
+    background-image: url("./Imagens/love_letter_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width:  150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+
+}
+
+.janela {
+    display: none;
+    z-index: 1;
+    background-color: white;
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+    height: 70vh;
+    width: 80%;
+    padding: 1%;
+    margin: 10%;
+    margin-top: 0%;
+    height: 90%;
+    background-image: url("./Imagens/pedido.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carta {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: left;
 }
 
