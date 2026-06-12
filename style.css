@@ -115,7 +115,7 @@ p {
     margin: 10%;
     margin-top: 0%;
     height: 90%;
-    background-image: url("./Imagens/pedido.jpg");
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0001)),url("./Imagens/pedido.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -123,9 +123,10 @@ p {
 
 .carta {
     font-family: "MonteCarlo", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: left;
+    color: black;
 }
 
