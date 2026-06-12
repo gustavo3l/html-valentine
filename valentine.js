@@ -35,7 +35,7 @@ document.querySelector(".but_letter1").addEventListener("click", function() {
     }
 })
 
-document.querySelector(".but_letter2").addEventListener("click", function() {
+document.querySelector(".but_letter3").addEventListener("click", function() {
  
         document.querySelector(".janela").style.display = "none";
         document.querySelector(".but_letter1").classList.remove('but_letter2');
